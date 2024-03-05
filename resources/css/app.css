@@ -83,3 +83,26 @@
       background-size: cover;
       }
 
+    /* FOOTER CSS */
+
+      .footer{
+        background-color: #3f3ce0; /* bg-gray-800 */
+        padding-top: 5rem; /* py-20 */
+        padding-bottom: 5rem; /* py-20 */
+        margin-top: 5rem; /* mt-20 */
+      }
+
+      .footer-h3 {
+        font-size: 1.125rem; /* text-l */
+      }
+      
+      @media (min-width: 640px) {
+        .footer-h3 {
+          font-weight: bold; /* sm:font-bold */
+        }
+      }
+      
+      .footer-h3 {
+        color: #ff5e4a; /* text-gray-100 */
+      }
+
