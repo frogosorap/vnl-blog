@@ -1,6 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="background-image grid grid-cols-1 m-auto">
+    <div class="flex text-gray-100 pt-10">
+        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
+            <h1 class="home-h1">
+                Blog Posts
+            </h1>
+        </div>
+    </div>
+</div>
+
 <div class="w-4/5 m-auto text-center">
     <div class="py-15 border-b border-gray-200">
         <h1 class="text-6xl">
