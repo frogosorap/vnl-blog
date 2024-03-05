@@ -4,12 +4,12 @@
     <div class="background-image grid grid-cols-1 m-auto">
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-                <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
+                <h1 class="home-h1">
                     Do you want to become a volleyball player?
                 </h1>
                 <a 
                     href="/blog"
-                    class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
+                    class="readmore-button">
                     Read More
                 </a>
             </div>
@@ -18,12 +18,12 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="https://www.fivb.org/Vis2009/Images/GetImage.asmx?No=202005707" width="700" alt="">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/N3Q367IAeKw?si=4MYnhkZq-8duK_3G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to be a better web developer?
+                Want to share your experiences in volleyball?
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
@@ -42,23 +42,27 @@
         </div>
     </div>
 
-    <div class="text-center p-15 bg-black text-white">
+    <div class="home-bg">
         <h2 class="text-2xl pb-5 text-l"> 
-            I'm an expert in...
+            Learn from epxerts in...
         </h2>
-
         <span class="font-extrabold block text-4xl py-1">
-            Ux Design
+            Setter
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Project Management
+            Libero
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
+            Middle
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Backend Development
+            Outside Hitter
         </span>
+        <span class="font-extrabold block text-4xl py-1">
+            Opposite Hitter
+        </span>
+        
+        
     </div>
 
     <div class="text-center py-15">
