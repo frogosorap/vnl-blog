@@ -83,6 +83,37 @@
       background-size: cover;
       }
 
+
+      /* IMAGE GALLERY CSS*/
+      .gallery-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; /* Adjust the gap between gallery columns */
+        }
+        
+        .gallery-col {
+            flex: 1 0 30%; /* Adjust column width */
+            gap: 20px;
+        }
+        
+        .gallery-img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease-in-out;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .gallery-img:hover {
+            transform: scale(1.01);
+        }
+
+
+
     /* FOOTER CSS */
 
       .footer{
@@ -106,3 +137,5 @@
         color: #ff5e4a; /* text-gray-100 */
       }
 
+
+      
