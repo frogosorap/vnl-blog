@@ -4,6 +4,38 @@
 
 @import "tailwindcss/utilities";
 
+.marquee {
+  height: 25px; /* Height set to 100% to cover the entire height of the HTML page */
+  width: 100%; /* Width set to 100% to cover the entire width of the HTML page */
+  
+  overflow: hidden;
+  position: relative;
+  background-color: #ff5e4a;
+  color:white;
+}
+
+.marquee div {
+  display: block;
+  width: 200%;
+  height: 100%; /* Height set to 100% to cover the entire height of the .marquee container */
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 10s linear infinite; /* Increased animation duration for smoother scrolling */
+}
+
+.marquee span {
+  float: left;
+  width: 50%;
+  padding:3px;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
 .background-image 
 {
     background-image: url('https://asianvolleyball.net/new/wp-content/uploads/2021/05/GetImage-scaled.jpeg');
@@ -83,6 +115,9 @@
       background-size: cover;
       }
 
+
+      /*PROFILE*/
+      
 
       /* IMAGE GALLERY CSS*/
       .gallery-row {
