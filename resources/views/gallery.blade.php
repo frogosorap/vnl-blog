@@ -8,9 +8,9 @@
                     Featured: Japan Team
                 </h1>
                 <a 
-                    href="/blog"
+                    href="https://volleytimes.com/2023/07/22/vnl-2023-photogallery-of-japan-poland/" target="_blank"
                     class="readmore-button">
-                    Read More
+                    View More Photos
                 </a>
             </div>
         </div>

@@ -31,3 +31,6 @@ Route::get('/gallery', function () {
     return view('gallery');
 });
 
+Route::get('/highlights', function () {
+    return view('highlights');
+});
