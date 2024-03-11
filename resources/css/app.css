@@ -213,6 +213,7 @@
 
         /**/
         .grid-container {
+          padding-top :20px;
           columns: 5 200px;
           column-gap: 1.5rem;
           width: 90%;

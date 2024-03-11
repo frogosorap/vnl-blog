@@ -21,63 +21,46 @@
         </div>
     </div>
 
-    
-
-    <!-- Gallery -->
-    <div class="gallery-row">
-        <div class="gallery-col">
-            <img src="https://i.pinimg.com/736x/66/2b/2b/662b2bd2ce5d11dc6862b544ee3a6549.jpg" class="gallery-img" alt="Boat on Calm Water" />
-            <img src="https://i.pinimg.com/564x/7d/a8/ae/7da8aed96cb240cdcf982a65c64acc4a.jpg" class="gallery-img" alt="Wintry Mountain Landscape" />
-        </div>
-        <div class="gallery-col">
-            <img src="https://i.pinimg.com/564x/2e/ea/58/2eea580371c6ea2ae7483d9c82781f19.jpg" class="gallery-img" alt="Mountains in the Clouds" />
-            <img src="https://i.pinimg.com/564x/f9/87/18/f98718e914cfa9cbf4e3ebb9ea776613.jpg" class="gallery-img" alt="Boat on Calm Water" />
-        </div>
-        <div class="gallery-col">
-            <img src="https://i.pinimg.com/564x/ed/4e/53/ed4e53a1d687659dd5e71a65d63cce4a.jpg" class="gallery-img" alt="Waves at Sea" />
-            <img src="https://i.pinimg.com/564x/d6/b7/82/d6b782546cfcbc99d2c4763a114bb4bf.jpg" class="gallery-img" alt="Yosemite National Park" />
-        </div>
-    </div>
 
     <div class="grid-container">
         <div>
-          <img class='grid-item grid-item-1' src='https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img class='grid-item grid-item-1' src='https://i.pinimg.com/736x/66/2b/2b/662b2bd2ce5d11dc6862b544ee3a6549.jpg' alt=''>
           <p>"I'm so happy today!"</p>
         </div>
         <div>
-          <img class='grid-item grid-item-2' src='https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img class='grid-item grid-item-2' src='https://i.pinimg.com/564x/7d/a8/ae/7da8aed96cb240cdcf982a65c64acc4a.jpg' alt=''>
           <p>"I see those nugs."</p>
         </div>
         <div>
-          <img class='grid-item grid-item-3' src='https://images.unsplash.com/photo-1510771463146-e89e6e86560e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img class='grid-item grid-item-3' src='https://i.pinimg.com/564x/80/02/48/800248bafc52507394f77107ae294a9e.jpg' alt=''>
           <p>"I love you so much!"</p>
         </div>
         <div>
-          <img class='grid-item grid-item-4' src='https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img class='grid-item grid-item-4' src='https://i.pinimg.com/564x/0a/8f/ef/0a8fef1c4576f7002f19721ff1af87da.jpg' alt=''>
           <p>"I'm the baby of the house!"</p>
         </div>
         <div>
-          <img class='grid-item grid-item-5' src='https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img class='grid-item grid-item-5' src='https://i.pinimg.com/564x/57/04/93/570493b6c6b1ff47c81b5f0afe7d3f6d.jpg' alt=''>
           <p>"Are you gunna throw the ball?"</p>
         </div>
         <div>
-          <img class='grid-item grid-item-6' src='https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img class='grid-item grid-item-6' src='https://i.pinimg.com/564x/d6/e0/6d/d6e06d807b8857c2ba4ccadb2f229fbf.jpg' alt=''>
           <p>"C'mon friend!"</p>
         </div>
         <div>
-          <img class='grid-item grid-item-7' src='https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img class='grid-item grid-item-7' src='https://i.pinimg.com/564x/c3/5d/83/c35d833e57e7486f851f391b30d050b9.jpg' alt=''>
           <p>"A rose for mommy!"</p>
         </div>
         <div>
-          <img class='grid-item grid-item-8' src='https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img class='grid-item grid-item-8' src='https://i.pinimg.com/564x/0a/97/51/0a97512030080bce47e096613f0d6931.jpg' alt=''>
           <p>"You gunna finish that?"</p>
         </div>
         <div>
-          <img class='grid-item grid-item-9' src='https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img class='grid-item grid-item-9' src='https://i.pinimg.com/564x/1d/cf/64/1dcf640eefa810491ed3d0b61abc693e.jpg' alt=''>
           <p>"We can't afford a cat!"</p>
         </div>
         <div>
-          <img class='grid-item grid-item-10' src='https://images.unsplash.com/photo-1504595403659-9088ce801e29?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img class='grid-item grid-item-10' src='https://i.pinimg.com/564x/60/9d/15/609d158d913be6b7c2ed9a4ccd76eb72.jpg' alt=''>
           <p>"Dis my fren!"</p>
         </div>
       </div>
