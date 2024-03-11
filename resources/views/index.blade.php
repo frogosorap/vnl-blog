@@ -68,6 +68,51 @@
         </span>
     </div>
 
+    <div class="profile-h2-div">
+        <h2 class="profile-h2">
+            Player Profiles
+        </h2>
+    </div>
+
+    <div class="wrapper">
+        <div class="media">
+            <div class="layer">
+                <p class="profile-p">Outside Hitter 1 | Yuki Ishikawa</p>
+            </div>
+            <img src="https://i.pinimg.com/564x/f6/80/b6/f680b68002b4f61e340c332198a75dc4.jpg" alt="" />
+        </div>
+
+        <div class="media">
+            <div class="layer">
+                <p class="profile-p">Outside Hitter 2 | Ran Takahashi</p>
+            </div>
+            <img src="https://i.pinimg.com/564x/76/80/c1/7680c189a0341864728b278a2ca1fd5d.jpg" alt="" />
+        </div>
+
+        <div class="media">
+            <div class="layer">
+                <p class="profile-p">Opposite Hitter 1 | Yuji Nishida</p>
+            </div>
+            
+            <img src="https://i.pinimg.com/564x/1d/43/55/1d435502eab11e0643fbd149ee427832.jpg" alt="" />
+        </div>
+
+        <div class="media">
+            <div class="layer">
+                <p class="profile-p">Opposite Hitter 2 | Kento Miyaura</p>
+              </div>
+            <img src="https://i.pinimg.com/564x/0d/52/58/0d525823d062a68e13af498ea7044541.jpg" alt="" />
+        </div>
+
+        <div class="media">
+            <div class="layer">
+                <p class="profile-p">Setter | Masahiro Sekita</p>
+              </div>
+            <img src="https://i.pinimg.com/564x/9d/b9/f4/9db9f46302a9e3c5d2aee9824876c5fd.jpg" alt="" />
+        </div>
+    </div>
+
+
     <div class="text-center py-15">
         <span class="uppercase text-s text-gray-400">
             Blog
