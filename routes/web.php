@@ -34,3 +34,7 @@ Route::get('/gallery', function () {
 Route::get('/highlights', function () {
     return view('highlights');
 });
+
+Route::get('/matches', function () {
+    return view('matches');
+});

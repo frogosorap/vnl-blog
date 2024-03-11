@@ -94,7 +94,7 @@
      China VS Germany</h1>
      </div>
      <div class="card-des">
-      <p>Men's highlights between China and Germany VNL 2023 in Netherlands.</p>
+      <p>Men's highlights between China and Germany VNL 2023 in Rotterdam, Netherlands.</p>
       <a href="https://www.youtube.com/watch?v=Fs7rA3bjRHE&ab_channel=VolleyballWorld" target="_blank">
         <button class="card-button">Watch Now</button>
       </a>
@@ -112,7 +112,7 @@
      Japan VS Germany</h1>
      </div>
      <div class="card-des">
-      <p>Women's highlights between Japan and Germany VNL 2023 in Brasilia, Brazil.</p>
+      <p>Women's highlights between Japan and Germany VNL 2023 in Brasilia.</p>
       <a href="https://www.youtube.com/watch?v=EiXNIgiTZ3Q&ab_channel=VolleyballWorld" target="_blank">
         <button class="card-button">Watch Now</button>
       </a>
@@ -175,7 +175,6 @@
       </div>
       </div>
 
-
-     
+</div>
     
 @endsection

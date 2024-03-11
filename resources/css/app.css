@@ -183,6 +183,20 @@
         }
       }
 
+
+      /*Fixture*/
+      .image-fixture {
+        text-align: center; /* Align images to center */
+        justify-content: center;
+      }
+
+      .image-fixture img {
+          width: 80%; /* Set width of images */
+          margin: 10px; /* Add margin between images */
+          justify-content: center;
+      }
+
+
       /* IMAGE GALLERY CSS*/
       .gallery-row {
         display: flex;
