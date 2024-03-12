@@ -31,14 +31,14 @@
         <input 
             type="text"
             name="title"
-            placeholder="Title..."
+            placeholder="Player Name..."
             class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
 
             <input 
             type="position"
             name="position"
             placeholder="Position..."
-            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+            class="bg-transparent block border-b-2 w-full h-20 text-4xl outline-none">
 
 
             <label for="team" class="text-chooseteam">Choose a team:</label>
