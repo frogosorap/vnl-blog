@@ -80,7 +80,7 @@ class PostsController extends Controller
 public function index(Request $request)
     {
         $posts = Post::query();
-        $teams = ['Italy']; // Example topics array, replace with your actual data
+        $teams = ['Italy','Japan','USA','Poland','Brazil','Cuba','Iran','Netherlands','Serbia','Argentina','Slovenia','France','Germany','China','Canada','Bulgaria']; // Example topics array, replace with your actual data
 
         if ($request->has('team')&& $request->team!="") {
             $posts->where('team', $request->team);
