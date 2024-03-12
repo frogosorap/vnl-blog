@@ -36,6 +36,16 @@
   100% { left: -100%; }
 }
 
+/*Navbar*/
+.navbar{
+  background-image: url('https://images.volleyballworld.com/image/private/t_q-best/fivb-prd/iyxvrrrqmjcjr5ghv8zd.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  /* background-position: center; */
+}
+
+
 .background-image 
 {
     background-image: url('https://media1.giphy.com/media/7AR8SaPVa2vkJS82Pq/giphy.gif?cid=ecf05e478hrdic3ehu9wb4s5n8pqql6wqqs3rjutd5onxgl4&ep=v1_gifs_related&rid=giphy.gif&ct=g');
@@ -53,9 +63,15 @@
 
   .text-gray-300 {
     --text-opacity: 1;
-    color: #ff5e4a;
+    color: white;
     font-weight: 650;
   }
+
+  /* .text-gray-300:hover {
+    --text-opacity: 1;
+    color: #ff5e4a;
+    font-weight: 650;
+  } */
 
   .text-5xl {
     font-size: 3rem;
