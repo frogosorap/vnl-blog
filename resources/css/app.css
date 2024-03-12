@@ -38,7 +38,7 @@
 
 /*Navbar*/
 .navbar{
-  background-image: url('https://images.volleyballworld.com/image/private/t_q-best/fivb-prd/iyxvrrrqmjcjr5ghv8zd.png');
+  background-image: url('https://images.volleyballworld.com/image/upload/f_png/v1617289641/assets/backgrounds-older/VNL_Branded_Bg_5-_1920');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 30px;
@@ -320,14 +320,14 @@
       }
       
       .card-button {
-          margin-top: 40px;
-          margin-bottom: 10px;
-          background-color: white;
-          border: 1px solid black;
-          color: black;
-          border-radius: 5px;
-          padding: 10px;
-          transition: background-color 0.5s, color 0.5s, box-shadow 0.5s; /* Adding transition */
+        margin-top: 40px;
+        margin-bottom: 10px;
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        border-radius: 5px;
+        padding: 10px;
+        transition: background-color 0.3s, box-shadow 0.5s;
       }
       
       .card-button:hover {
@@ -342,7 +342,10 @@
       .comment-form {
         margin-top: 20px;
         padding: 20px;
-        background-color: #f9f9f9;
+        /* background-color: #f9f9f9; */
+        background-image: url('https://images.volleyballworld.com/image/private/t_landscape_tablet/fivb-prd/wmqcvufnlsrnjknhzrae.jpg');
+        /* filter: grayscale(75%); */
+        /* background-image: url('https://upload.wikimedia.org/wikipedia/en/1/1c/FIVB_Volleyball_Nations_League_logo.jpg'); */
         border: 1px solid #ddd;
         border-radius: 5px;
       }
@@ -350,8 +353,8 @@
       .comment-heading {
           font-size: 1.5rem;
           font-weight: bold;
-          margin-bottom: 1.5rem;
-          color: #333;
+          margin-bottom: 3.5rem;
+          color: white;
       }
       
       .form-input {
@@ -370,17 +373,21 @@
       }
       
       .btn-primary {
-          background-color: #3498db;
-          color: #fff;
-          border: none;
-          border-radius: 4px;
-          padding: 1rem 2rem;
-          cursor: pointer;
-          transition: background-color 0.3s;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        border-radius: 5px;
+        padding: 10px;
+        transition: background-color 0.3s, box-shadow 0.5s;
       }
       
       .btn-primary:hover {
-          background-color: #2980b9;
+        background-color: #ff5e4a;
+        color: white;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adding a slight shadow on hover */
+        cursor: pointer;
       }
 
 
