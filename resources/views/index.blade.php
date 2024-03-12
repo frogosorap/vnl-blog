@@ -113,41 +113,32 @@
     </div>
 
 
-    <div class="text-center py-15">
+    {{-- <div class="text-center py-15">
         <span class="uppercase text-s text-gray-400">
             Blog
         </span>
+    </div> --}}
 
-        <h2 class="text-4xl font-bold py-10">
-            Recent Posts
-        </h2>
-
-        <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
-        </p>
-    </div>
-
-    <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-yellow-700 text-gray-100 pt-10">
-            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-                <span class="uppercase text-xs">
-                    PHP
-                </span>
-
-                <h3 class="text-xl font-bold py-10">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
-                </h3>
-
-                <a 
-                    href=""
-                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                    Find Out More
-                </a>
-            </div>
+    <div class="about-container">
+        <div class="about-image">
+          <img src="https://i.pinimg.com/564x/6d/c0/39/6dc0399ceb8bec65812332435de29b53.jpg" class="img-fluid" alt="">
         </div>
-        <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
+        <div class="about-content title mb-3">
+          <h2 class="about-h2">
+            About Us <br>
+            Our History <br>
+            Mission & Vision <br>
+          </h2>
+          <p class="about-p">
+            The FIVB Volleyball Women's Nations League is an international volleyball competition contested by the senior women's national teams of the members of the Fédération Internationale de Volleyball FIVB, the sport's global governing body. The first tournament took place between May and July 2018, with the final taking place in Nanjing, China. United States won the inaugural edition, defeating Turkey in the final.
+            <br><br>
+            In July 2018, the FIVB announced that China would host the next three editions of the women's Volleyball Nations League Finals, from 2019–2021‌, but on March 13, 2020, the FIVB decided to postpone the Nations League until after the 2020 Summer Olympics due to the COVID-19 pandemic. Finally, the FIVB canceled the 2020 edition and confirmed Italy as the host of the final stage of the 2021 VNL.
+
+            
+          </p>
+          <a class="about-a"href="#"><button class="btn btn-black">Learn More</button></a>
         </div>
+        
     </div>
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9584868.235193124!2d-1.5264132659975298!3d45.99452739134405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2fc87ee528b7%3A0x40816cbb7c47e0f0!2sFIVB%20-%20F%C3%A9d%C3%A9ration%20Internationale%20de%20Volleyball!5e0!3m2!1sen!2sie!4v1710235761781!5m2!1sen!2sie" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

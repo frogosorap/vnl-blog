@@ -21,10 +21,6 @@
         </div>
     </div>
 
-    <div class="image-fixture">
-        <img src="https://i0.wp.com/volleytimes.com/wp-content/uploads/2022/05/img_6781.png?resize=640%2C360&ssl=1" alt="First Image">
-    </div>
-
     
 
      <div class="flex flex-col items-center bg-white py-10">
