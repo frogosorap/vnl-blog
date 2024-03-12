@@ -42,6 +42,25 @@
     </div>
 @endif
 
+<form action="{{ route('blog.index') }}" method="GET" class="w-4/5 m-auto mt-5 text-right">
+    <label for="sort">Sort by:</label>
+    <select name="sort" id="sort" onchange="this.form.submit()">
+        <option value="">Select</option>
+        <option value="team_asc" @if(request('sort') == 'team_asc') selected @endif>Team (Ascending)</option>
+        <option value="team_desc" @if(request('sort') == 'team_desc') selected @endif>Team (Descending)</option>
+        <option value="date_asc" @if(request('sort') == 'date_asc') selected @endif>Date (Ascending)</option>
+        <option value="date_desc" @if(request('sort') == 'date_desc') selected @endif>Date (Descending)</option>
+    </select>
+
+    <label for="team">Filter by team:</label>
+    <select name="team" id="team" onchange="this.form.submit()">
+        <option value="">All team</option>
+        @foreach($teams as $team)
+            <option value="{{ $team }}" @if(request('team') == $team) selected @endif>{{ $team }}</option>
+        @endforeach
+    </select>
+</form>
+
 @foreach ($posts as $post)
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
@@ -69,8 +88,8 @@
                 {{ $post->description }}
             </p>
 
-            <a href="/blog/{{ $post->slug }}" class="uppercase bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
-                Keep Reading
+            <a href="/blog/{{ $post->slug }}" class="btn-primary">
+                KEEP READING
             </a>
 
             @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)

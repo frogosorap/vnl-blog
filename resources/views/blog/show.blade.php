@@ -55,12 +55,13 @@
             </button>
         </form>
     </div>
-    <div class="mt-10">
-        <div class="mt-10">
+    <div class="comment-container">
+        <div class="comment-wrapper">
+            <p class="comment-title">COMMENTS</p>
             @foreach($post->comments as $comment)
-                <div class="bg-gray-100 p-4 rounded-lg mb-4">
-                    <p class="font-bold">By: {{ $comment->name }}</p>
-                    <p class="mt-2">{{ $comment->comment }}</p>
+                <div class="comment-box">
+                    <p class="comment-author">By: {{ $comment->name }}</p>
+                    <p class="comment-text">{{ $comment->comment }}</p>
                 </div>
             @endforeach
         </div>

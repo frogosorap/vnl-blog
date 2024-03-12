@@ -18,11 +18,11 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        return view('blog.index')
-            ->with('posts', Post::orderBy('updated_at', 'DESC')->get());
-    }
+    // public function index()
+    // {
+    //     return view('blog.index')
+    //         ->with('posts', Post::orderBy('updated_at', 'DESC')->get());
+    // }
 
     /**
      * Show the form for creating a new resource.
@@ -78,6 +78,34 @@ class PostsController extends Controller
     {
         return view('blog.show')
             ->with('post', Post::where('slug', $slug)->first());
+    }
+
+    public function index(Request $request)
+    {
+        $posts = Post::query();
+        $teams = ['Italy','Japan','USA','Poland','Brazil','Cuba','Iran','Netherlands','Serbia','Argentina','Slovenia','France','Germany','China','Canada','Bulgaria']; // Example topics array, replace with your actual data
+
+        if ($request->has('team')&& $request->team!="") {
+            $posts->where('team', $request->team);
+        }
+
+        if ($request->has('sort')) {
+            if ($request->sort == 'team_asc') {
+                $posts->orderBy('team', 'asc');
+            } elseif ($request->sort == 'team_desc') {
+                $posts->orderBy('team', 'desc');
+            }
+
+            if ($request->sort == 'date_asc') {
+                $posts->orderBy('updated_at', 'asc');
+            } elseif ($request->sort == 'date_desc') {
+                $posts->orderBy('updated_at', 'desc');
+            }
+        }
+
+        $posts = $posts->get();
+
+        return view('blog.index', compact('posts', 'teams'));
     }
 
     /**
