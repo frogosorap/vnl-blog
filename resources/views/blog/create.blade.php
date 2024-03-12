@@ -40,6 +40,28 @@
             placeholder="Position..."
             class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
 
+
+            <label for="team" class="text-chooseteam">Choose a team:</label>
+            <select name="team" id="genre" class="bg-transparent block border-b-2 w-full h-20 text-xl outline-none">
+
+                <option value="Japan">Japan</option>
+                <option value="USA">USA</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Poland">Poland</option>
+                <option value="Slovenia">Slovenia</option>
+                <option value="China">China</option>
+                <option value="Bulgaria">Bulgaria</option>
+                <option value="France">France</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="Germany">Germany</option>
+                <option value="Italy">Italy</option>
+                <option value="Serbia">Serbia</option>
+                <option value="Canada">Canada</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Iran">Iran</option>
+                <option value="Argentina">Argentina</option>
+            </select>
+
         <textarea 
             name="description"
             placeholder="Description..."

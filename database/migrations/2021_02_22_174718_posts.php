@@ -18,6 +18,7 @@ class Posts extends Migration
             $table->string('slug');
             $table->string('title');
             $table->string('position');
+            $table->string('team');
             $table->longText('description');
             $table->string('image_path');
             $table->timestamps();
