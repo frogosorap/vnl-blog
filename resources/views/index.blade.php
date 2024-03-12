@@ -150,5 +150,5 @@
         </div>
     </div>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9584868.235193124!2d-1.5264132659975298!3d45.99452739134405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2fc87ee528b7%3A0x40816cbb7c47e0f0!2sFIVB%20-%20F%C3%A9d%C3%A9ration%20Internationale%20de%20Volleyball!5e0!3m2!1sen!2sie!4v1710235761781!5m2!1sen!2sie" width="1518" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9584868.235193124!2d-1.5264132659975298!3d45.99452739134405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2fc87ee528b7%3A0x40816cbb7c47e0f0!2sFIVB%20-%20F%C3%A9d%C3%A9ration%20Internationale%20de%20Volleyball!5e0!3m2!1sen!2sie!4v1710235761781!5m2!1sen!2sie" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 @endsection
