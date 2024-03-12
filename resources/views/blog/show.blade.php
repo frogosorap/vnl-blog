@@ -32,7 +32,9 @@
     </div>
 
     <div class="w-4/5 m-auto pt-0">
-        
+        <div class="comment">
+            
+        </div>
     </div>
 </div>
 
