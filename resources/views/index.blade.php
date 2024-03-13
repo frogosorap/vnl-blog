@@ -106,10 +106,48 @@
 
         <div class="media">
             <div class="layer">
-                <p class="profile-p">Setter | Masahiro Sekita</p>
+                <p class="profile-p">Main Setter | Masahiro Sekita</p>
               </div>
             <img src="https://i.pinimg.com/564x/9d/b9/f4/9db9f46302a9e3c5d2aee9824876c5fd.jpg" alt="" />
         </div>
+
+        <div class="media">
+            <div class="layer">
+                <p class="profile-p">Outside Hitter 1 | Matt Anderson</p>
+            </div>
+            <img src="https://i.pinimg.com/564x/fc/d2/60/fcd260a852d0aafb5adfb085e8f587d3.jpg" alt="" />
+        </div>
+
+        <div class="media">
+            <div class="layer">
+                <p class="profile-p">Main Setter | Micah Christenson</p>
+            </div>
+            <img src="https://i.pinimg.com/564x/7c/fd/a5/7cfda5c3ebff2c7b7fc255ee473c3193.jpg" alt="" />
+        </div>
+
+        <div class="media">
+            <div class="layer">
+                <p class="profile-p">Opposite Hitter 2 | Leandro Souza</p>
+            </div>
+            
+            <img src="https://i.pinimg.com/564x/ff/05/f7/ff05f71a0569a87b41c38a1cb596e235.jpg" alt="" />
+        </div>
+
+        <div class="media">
+            <div class="layer">
+                <p class="profile-p">Main Setter | Bruno Rezende</p>
+              </div>
+            <img src="https://i.pinimg.com/564x/93/18/35/9318352f06b953d6d1a653d75ebd5f66.jpg" alt="" />
+        </div>
+
+        <div class="media">
+            <div class="layer">
+                <p class="profile-p">Opposite Hitter | Ivan Zaytsev</p>
+              </div>
+            <img src="https://i.pinimg.com/564x/b7/7e/bc/b77ebc4ce46e84d4803f481904ed599e.jpg" alt="" />
+        </div>
+
+        
     </div>
 
 

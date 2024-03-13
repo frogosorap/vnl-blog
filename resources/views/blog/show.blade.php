@@ -5,6 +5,8 @@
       <span>🌍 VNL 2024 Schedule The VNL 2024 schedule includes matches across different pools, rounds, and genders, with various teams competing in different venues. Follow live matches and stay updated on the results.</span>
     </div>
   </div>
+  <div class="logdiv">
+</div>
 @section('content')
 <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
     <div>
