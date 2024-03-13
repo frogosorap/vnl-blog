@@ -12,6 +12,9 @@
   position: relative;
   background-color: #ff5e4a;
   color:white;
+  position: fixed;
+  width: 100%;
+  z-index: 1001;
 }
 
 .marquee div {
@@ -37,12 +40,22 @@
 }
 
 /*Navbar*/
-.navbar{
+.navbar {
   background-image: url('https://images.volleyballworld.com/image/upload/f_png/v1617289641/assets/backgrounds-older/VNL_Branded_Bg_5-_1920');
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30px;
-  /* background-position: center; */
+  padding: 25px;
+  padding-top: 40px;
+  padding-bottom: 18px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Ensures the navbar appears above other content */
+  transition: top 0.3s; /* Add smooth transition effect */
+}
+
+.navbar.sticky {
+  top: 5px; /* Adjust as needed to make space for the marquee */
 }
 
 
