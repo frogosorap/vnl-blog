@@ -62,6 +62,9 @@
   top: 5px; /* Adjust as needed to make space for the marquee */
 }
 
+.links-a:hover{
+  color: #ff5e4a;
+}
 
 .background-image 
 {
