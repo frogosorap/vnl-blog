@@ -4,6 +4,10 @@
 
 @import "tailwindcss/utilities";
 
+.logdiv{
+  padding-top: 100px;
+}
+
 .marquee {
   height: 25px; /* Height set to 100% to cover the entire height of the HTML page */
   width: 100%; /* Width set to 100% to cover the entire width of the HTML page */
