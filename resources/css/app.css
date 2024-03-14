@@ -121,7 +121,7 @@
     box-shadow: inset 0 0 0 2px #ff5e4a;
     background-color: transparent;
     height: 48px;
-    
+    padding-top: 1rem;
 
   }
   .readmore-button:hover{
@@ -136,7 +136,8 @@
       text-transform: uppercase; /* uppercase */
       font-weight: bold; /* font-bold */
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* text-shadow-md */
-      padding-bottom: 3.5rem; /* pb-14 */
+      /* padding-bottom: 3rem; pb-14 */
+      padding-top: 3.5rem;
     }
     
     .home-bg{
