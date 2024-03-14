@@ -538,26 +538,100 @@ body{
 
     /* FOOTER CSS */
 
-      .footer{
-        background-color: #3f3ce0; /* bg-gray-800 */
-        padding-top: 5rem; /* py-20 */
-        padding-bottom: 5rem; /* py-20 */
-        margin-top: 5rem; /* mt-20 */
-      }
-
-      .footer-h3 {
-        font-size: 1.125rem; /* text-l */
-      }
-      
-      @media (min-width: 640px) {
-        .footer-h3 {
-          font-weight: bold; /* sm:font-bold */
+    footer{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: auto;
+      /* background-color: #3f3ce0; */
+      padding: 60px 10%;
+      background-image: url('https://images.volleyballworld.com/image/upload/f_png/v1617289641/assets/backgrounds-older/VNL_Branded_Bg_5-_1920');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    ul{
+        list-style: none;
+    }
+    
+    .footer-col{
+        width: 25%;
+    }
+    
+    .footer-col h4{
+        position: relative;
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 22px;
+        color: #ff5e4a;
+        text-transform: capitalize;
+    }
+    
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        background-color: #ff5e4a;
+        height: 2px;
+        width: 40px;
+    }
+    
+    ul li:not(:last-child){
+        margin-bottom: 8px;
+    }
+    
+    ul li a{
+        display: block;
+        font-size: 19px;
+        text-transform: capitalize;
+        color: #bdb6b6;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+    
+    ul li a:hover{
+        color: #ff5e4a;
+        padding-left: 2px;
+    }
+    
+    .links a{
+        display: inline-block;
+        height: 44px;
+        width: 44px;
+        color: white;
+        background-color: #ff5e4a;
+        margin: 0 8px 8px 0;
+        text-align: center;
+        line-height: 44px;
+        border-radius: 50%;
+        transition: 0.4s;
+    }
+    
+    .links a:hover{
+        color: #4d4f55;
+        background-color: white;
+    }
+    .links i
+    {
+      padding-top: 14px;
+    }
+    
+    @media(max-width: 740px){
+        .footer-col{
+            width: 50%;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    
+        .footer-col h4::before{
+            all: unset;
+        }
+    }
+    
+    @media(max-width: 555px){
+        .footer-col{
+            width: 100%;
         }
       }
-      
-      .footer-h3 {
-        color: #ff5e4a; /* text-gray-100 */
-      }
-
 
       

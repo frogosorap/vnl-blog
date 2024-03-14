@@ -1,93 +1,38 @@
-<footer class="footer">
-    <div class="sm:grid grid-cols-3 w-4/5 pb-10 m-auto border-b-2 border-gray-700">
-        <div>
-            <h3 class="footer-h3">
-                Pages
-            </h3>
-
-            <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1">
-                    <a href="/">
-                        Home
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/blog">
-                        Blog
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/login">
-                        Login
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/register">
-                        Register
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <h3 class="footer-h3">
-                Find Us
-            </h3>
-
-            <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1">
-                    <a href="/">
-                        What we do
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Address
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Phone
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <h3 class="footer-h3">
-                Latest posts
-            </h3>
-
-            <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1">
-                    <a href="/">
-                        Why we love tech
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Why we love design
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Why to use Laravel
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Why PHP is the best
-                    </a>
-                </li>
-            </ul>
-        </div>
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<footer>
+    <div class="footer-col">
+      <h4>Pages</h4>
+      <ul>
+        <li><a href="/highlights">Highlights</a></li>
+        <li><a href="/fixtures">Fixtures</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
     </div>
-    <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6">
-        Copyright 2017-2021 Code With Dary. All Rights Reserved
-    </p>
-</footer>
+    <div class="footer-col">
+      <h4>VNL</h4>
+      <ul>
+        <li><a href="https://subscribe.volleyballworld.com/volleyball-tv2" target="_blank">Volleyball World</a></li>
+        <li><a href="https://en.volleyballworld.com/volleyball/competitions/volleyball-nations-league/competition/" target="_blank">Comptetion</a></li>
+        <li><a href="https://en.volleyballworld.com/volleyball/competitions/volleyball-nations-league/tickets/" target="_blank">Tickets</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Creators</h4>
+      <ul>
+        <li><a href="https://github.com/codewithdary/" target="_blank">Dary</a></li>
+        <li><a href="https://github.com/frogosorap/" target="_blank">Raph</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-col">
+      <h4>follow us on</h4>
+      <div class="links">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
