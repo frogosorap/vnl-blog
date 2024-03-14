@@ -32,17 +32,18 @@
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+                I was so absorbed by her negativity and I felt really bad about myself. I thought of quitting after my first day.
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
+            But then someone once told me that we can never get what we want if we are all quitters. So, I decided to channel the frustration from the negativity of my teammate and my zero athletic ability into something good.
+            I decided to list the things I need to improve in order to know how to properly play the game.
             </p>
 
             <a 
                 href="/blog"
-                class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
-                Find Out More
+                class="btn-primary">
+                Find Out More On Blogs
             </a>
         </div>
     </div>

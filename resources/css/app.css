@@ -4,6 +4,10 @@
 
 @import "tailwindcss/utilities";
 
+body{
+  font-family: "Lato", sans-serif;
+}
+
 .logdiv{
   padding-top: 100px;
 }
@@ -159,7 +163,7 @@
         text-align: center;
         font-size: 2.2rem; /* Adjust the font size as needed */
         font-weight: bold;
-        padding:20px;
+        padding:50px;
       }
 
       .wrapper {
@@ -169,7 +173,6 @@
         width: 100%;
         flex-wrap: wrap;
         gap: 5px;
-        padding-top: 20px;
       }
       
       .media {
@@ -287,6 +290,28 @@
           justify-content: center;
       }
 
+      /*SLIDESHOW AND TWITTER*/
+      .slideshow-container {
+        max-width: 900px;
+        position: relative;
+        margin: auto;
+      }
+      
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 2.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .2} 
+        to {opacity: 1}
+      }
+      
+      .news-slideshow{
+        display: flex;
+      }
+
 
       /* IMAGE GALLERY CSS*/
       .gallery-row {
@@ -400,8 +425,8 @@
         background-color: white;
         border: 1px solid black;
         color: black;
-        border-radius: 5px;
-        padding: 10px;
+        border-radius: 35px;
+        padding: 15px;
         transition: background-color 0.3s, box-shadow 0.5s;
       }
       
@@ -455,8 +480,8 @@
         background-color: white;
         border: 1px solid black;
         color: black;
-        border-radius: 5px;
-        padding: 10px;
+        border-radius: 35px;
+        padding: 15px;
         transition: background-color 0.3s, box-shadow 0.5s;
       }
       

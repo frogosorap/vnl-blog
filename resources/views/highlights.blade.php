@@ -20,9 +20,62 @@
             </div>
         </div>
     </div>
+    <div class="news-slideshow">
+      <div class="slideshow-container">
+        <div class="news">
+          <a class="twitter-timeline" data-width="380" data-height="500"
+            href="https://twitter.com/volleyballworld?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Tweets by VNL</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+
+      <div class="slideshow-container">
+          <br><br>
+
+          <div class="mySlides fade">
+            <img src="https://i.ytimg.com/vi/ty_aFdftRFs/maxresdefault.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img
+              src="https://i.ytimg.com/vi/jXxYFu1ULis/maxresdefault.jpg"
+              style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img
+              src="https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/k3ky7xsynxl1tm4j0ruo"
+              style="width:100%">
+          </div>
+          <br><br>
+        </div>
+      </div>
+    </div>
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 5000); // Change image every 5 seconds
+      }
+    </script>
 
     <div class="card-carousel">
 
+    </div>
+
+    <div class="profile-h2-div">
+      <h2 class="profile-h2">
+          WATCH US ON YOUTUBE!
+      </h2>
     </div>
 
     <div class="card-main">
