@@ -21,7 +21,11 @@
         </div>
     </div>
     
-
+    <div class="profile-h2-div">
+      <h2 class="profile-h2">
+          Photo's By Fans!
+      </h2>
+    </div>
     <div class="grid-container">
         <div>
           <img class='grid-item grid-item-1' src='https://i.pinimg.com/736x/66/2b/2b/662b2bd2ce5d11dc6862b544ee3a6549.jpg' alt=''>

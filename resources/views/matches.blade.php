@@ -20,7 +20,11 @@
             </div>
         </div>
     </div>
-
+	<div class="profile-h2-div">
+        <h2 class="profile-h2">
+            Calendar
+        </h2>
+    </div>
     <div class="calendar">
 		{{-- <h1>VNL Schedule July 2023</h1> --}}
 		<p></a>
@@ -59,10 +63,16 @@
 		</ul>
 	</div>
 
+	<div class="profile-h2-div">
+        <h2 class="profile-h2">
+            2023-2024 Season
+        </h2>
+    </div>
+
      <div class="flex flex-col items-center bg-white py-10">
 
 	<!-- Component Start -->
-	<h1 class="text-lg text-black-400 font-medium">2023-2024 Season</h1>
+	{{-- <h1 class="text-lg text-black-400 font-medium">2023-2024 Season</h1> --}}
 	<div class="flex flex-col mt-6">
 		<div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
 			<div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
