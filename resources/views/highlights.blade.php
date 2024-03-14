@@ -20,6 +20,11 @@
             </div>
         </div>
     </div>
+
+    <div class="card-carousel">
+
+    </div>
+
     <div class="card-main">
 
       <!--cards -->
@@ -178,3 +183,66 @@
 </div>
     
 @endsection
+
+@push('styles')
+<link rel="stylesheet" type="text/css" href="path/to/slick.css">
+<link rel="stylesheet" type="text/css" href="path/to/slick-theme.css">
+<style>
+    .card-carousel .slick-slide {
+        margin: 0 10px;
+    }
+    .card-carousel .card {
+        background-color: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .card-carousel .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .card-carousel .card-content {
+        padding: 10px;
+    }
+    .card-carousel .card-title {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .card-carousel .card-description {
+        font-size: 14px;
+        color: #666;
+    }
+</style>
+@endpush
+
+@push('scripts')
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="path/to/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.card-carousel').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: '<button type="button" class="slick-prev">&#8592;</button>',
+        nextArrow: '<button type="button" class="slick-next">&#8594;</button>',
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+});
+</script>
+@endpush
