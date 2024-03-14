@@ -290,6 +290,61 @@ body{
           justify-content: center;
       }
 
+
+      /*CALENDAR*/
+      .calendar {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+      }
+      h1 {
+        font-weight: 800;
+        margin: 1rem 0 0;
+      }
+      
+      .cal-ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        flex-wrap: wrap;
+        list-style: none;
+      
+        li {
+          display: flex;
+          width: 10rem;
+          height: 10rem;
+          margin: 0.25rem;
+          flex-flow: column;
+          border-radius: 0.2rem;
+          padding: 1rem;
+          font-weight: 300;
+          font-size: 0.8rem;
+          box-sizing: border-box;
+          background: rgba(255, 255, 255, 0.25);
+          box-shadow: 0 8px 32px 0 rgba(46, 52, 143, 0.37);
+          backdrop-filter: blur(4px);
+          -webkit-backdrop-filter: blur(4px);
+          border-radius: 10px;
+          border: 1px solid rgba(255, 255, 255, 0.18);
+          font-weight: 600;
+      
+          time {
+            font-size: 2rem;
+            margin: 0 0 1rem 0;
+            font-weight: 500;
+            color:#f7b3aa;
+          }
+        }
+        .today {
+          time {
+            font-weight: 1000;
+            color:#ff5e4a;
+          }
+          background-color: white;
+        }
+      }
+      
+
+
       /*SLIDESHOW AND TWITTER*/
       .slideshow-container {
         max-width: 900px;
@@ -547,6 +602,7 @@ body{
       background-image: url('https://images.volleyballworld.com/image/upload/f_png/v1617289641/assets/backgrounds-older/VNL_Branded_Bg_5-_1920');
       background-size: cover;
       background-repeat: no-repeat;
+      margin-top:40px;
     }
     
     ul{

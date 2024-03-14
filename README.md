@@ -21,6 +21,8 @@ https://www.sliderrevolution.com/resources/css-gallery/
 https://github.com/CodeExplainedRepo/world-cup-2022-results-javascript/tree/main/src 
 https://codepen.io/robstinson/pen/PoGyRgy?editors=1010
 https://mdbootstrap.com/docs/standard/extended/gallery/
+https://www.youtube.com/watch?v=bf01WW-Cols/
+https://codepen.io/Raphael-Frogoso/pen/MWRjJXQ/
 
 ```
 

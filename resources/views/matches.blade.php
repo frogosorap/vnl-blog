@@ -21,7 +21,43 @@
         </div>
     </div>
 
-    
+    <div class="calendar">
+		{{-- <h1>VNL Schedule July 2023</h1> --}}
+		<p></a>
+		<ul class="cal-ul">
+			<li><time datetime="2023-07-01">1</time>VNL Pred Day 1</li>
+			<li><time datetime="2023-07-02">2</time>VNL Pred Day 2</li>
+			<li><time datetime="2023-07-03">3</time>VNL Pred Day 3</li>
+			<li><time datetime="2023-07-04">4</time>Men's China VS Bulgaria, Netherlands</li>
+			<li><time datetime="2023-07-05">5</time>Women's Italy VS Argentina, Philippines</li>
+			<li><time datetime="2023-07-06">6</time>Men's Japan VS Iran, Philippines</li>
+			<li><time datetime="2023-07-07">7</time>Men's USA VS Slovenia, Philippines</li>
+			<li><time datetime="2023-07-08">8</time>VNL Commences</li>
+			<li><time datetime="2023-07-09">9</time>----------</li>
+			<li><time datetime="2023-07-10">10</time>----------</li>
+			<li><time datetime="2023-07-11">11</time>----------</li>
+			<li><time datetime="2023-07-12">12</time>VNL Travel Day 1</li>
+			<li><time datetime="2023-07-13">13</time>VNL Travel Day 2</li>
+			<li><time datetime="2023-07-14">14</time>----------</li>
+			<li><time datetime="2023-07-15">15</time>----------</li>
+			<li><time datetime="2023-07-16">16</time>VNL Pred Day 1</li>
+			<li><time datetime="2023-07-17">17</time>VNL Pred Day 2</li>
+			<li><time datetime="2023-07-18">18</time>VNL Pred Day 3</li>
+			<li class="today"><time datetime="2023-07-19">19</time>-----------</li>
+			<li><time datetime="2023-07-20">20</time>Men's Japan VS USA, USA</li>
+			<li><time datetime="2023-07-21">21</time>Men's Germany VS Canada, USA</li>
+			<li><time datetime="2023-07-22">22</time>Women's Turkey VS Poland, USA</li>
+			<li><time datetime="2023-07-23">23</time>Women's Serbia VS Germany, USA</li>
+			<li><time datetime="2023-07-24">24</time>----------</li>
+			<li><time datetime="2023-07-25">25</time>VNL Championship Prep 1</li>
+			<li><time datetime="2023-07-26">26</time>VNL Championship Prep 2</li>
+			<li><time datetime="2023-07-27">27</time>Men's Group A Winner VS Group B Winner</li>
+			<li><time datetime="2023-07-28">28</time>Men's Group C Winner VS Group D Winner</li>
+			<li><time datetime="2023-07-28">29</time>Women's Group A Winner VS Group B Winner</li>
+			<li><time datetime="2023-07-28">30</time>Women's Group C Winner VS Group D Winner</li>
+			<li><time datetime="2023-07-28">31</time>VNL Championship</li>
+		</ul>
+	</div>
 
      <div class="flex flex-col items-center bg-white py-10">
 
